@@ -6,8 +6,17 @@ Lab Time:
 """
 
 def inc_5():
-    # Write your code here
-    
+    first = int(input())
+    second = int(input())
+    new = ''
+    if first > second:
+        print("Second integer can't be less than the first.")
+    else:
+        while first <= second:
+            new = str(new)+' '+str(first)
+            first = first + 5
+            
+        print(new)
 
 
 
