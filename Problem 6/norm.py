@@ -7,7 +7,7 @@ Lab Time: thursday 6:13
 
 
 def norm():
-    first_integer = int(input('integer amount of values:'))
+    first_integer = int(input())
     float_list = []
     for i in range(first_integer):
         float_inputs = float(input())

@@ -41,5 +41,6 @@ def brute_eq():
     
 
     
+    
 if __name__ == "__main__":
     brute_eq()
